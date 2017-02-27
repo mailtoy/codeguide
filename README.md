@@ -15,6 +15,6 @@ _**Bjarne Stroustrup**, inventor of C++ and author of The C++ Programming Langua
 
 ###1.Clean code is focused.
 
-*Without hesitation or unnecessary detail.* 
-*Well-written prose.* 
+- [x] *Without hesitation or unnecessary detail.* 
+- [x] *Well-written prose.* 
 Each function, each class, each module exposes a single-minded attitude that remains entirely undistracted, and unpolluted, by the surrounding details.
