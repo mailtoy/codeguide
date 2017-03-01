@@ -27,15 +27,17 @@ Beck’s rules of simple code. In priority order, simple code:
 ###3.Methods
 
 <br>*Do One Thing*  Functions should do one thing. They should do it well. They should do it only.
-<br>```public void play() {``` 
-<br>```	   for (Family p : persons)``` 
-<br>```	      playBall(e);``` 
-<br>```}``` 
-<br>
-<br>```private void playBall(Family p) {``` 
-<br>```     if (p.isChild()) ```
-<br>```       keepPerson(p);``` 
-<br>```} ```
+```
+public void play() { 
+for (Family p : persons) 
+  playBall(e); 
+} 
+
+private void playBall(Family p) { 
+  if (p.isChild()) 
+     keepPerson(p); 
+}  
+```
 <br>*Don’t Repeat Yourself*
 <br>*Return results, don't print them*
 
