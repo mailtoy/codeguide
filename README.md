@@ -20,23 +20,36 @@
 	Each function, each class, each module exposes a single-minded attitude that remains entirely undistracted, and unpolluted, by the surrounding details.
 
 ###2.Meaningful Names
-*Use Intention-Revealing Names*
-*Avoid Disinformation* For example, hp, aix, and sco would be poor variable names because they are the names of Unix platforms or variants. 
-*A class name should not be a verb.*
-*Methods should have verb or verb phrase names*
-``` string name = employee.getName(); 
-customer.setName("mike"); 
-if (paycheck.isPosted())... ``` 
+
+<br>*Use Intention-Revealing Names*
+<br>*Avoid Disinformation* For example, hp, aix, and sco would be poor variable names because they are the names of Unix platforms or variants. 
+<br>*A class name should not be a verb.*
+<br>``` names like Customer, WikiPage, Account ``` 
+<br>*Methods should have verb or verb phrase names*
+<br>```names like postPayment, deletePage 
+<br>string name = employee.getName(); 
+<br>customer.setName("Kanchanok"); 
+ ``` 
 
 
 ###3.Functions
 
-*Do One Thing*  Functions should do one thing. They should do it well. They should do it only.
-*Don’t Repeat Yourself*
+<br>*Do One Thing*  Functions should do one thing. They should do it well. They should do it only.
+<br>```public void play() { 
+<br>	   for (Family p : persons) 
+<br>	      playBall(e); 
+<br>} 
+<br>
+<br>private void playBall(Family p) { 
+<br>     if (p.isChild()) 
+<br>       keepPerson(p); 
+<br>}  
+```
+<br>*Don’t Repeat Yourself*
 
 ###4.Comments
 
-*Informative Comments* It is sometimes useful to provide basic information with a comment. 
+<br>*Informative Comments* It is sometimes useful to provide basic information with a comment. 
 <br>*TODO Comments* TODOs are jobs that the programmer thinks should be done.
 <br>``` //TODO  these are not needed  ```
-*Must have a javadoc.*
+<br>*Must have a javadoc.*
