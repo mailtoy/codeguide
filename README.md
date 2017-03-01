@@ -4,16 +4,18 @@
 
 *Clean Code*: A Handbook of Agile Software Craftsmanship Robert C. Martin
 [Link](http://ricardogeek.com/docs/clean_code.pdf)
-
-###1.Getting Clean via Emergent Design
+*Replace Magic Number with Symbolic Constant* By Martin Fowler
+[Link](https://refactoring.com/catalog/replaceMagicNumberWithSymbolicConstant.html)
+*How to Write Doc Comments for the Javadoc Tool* [Link](http://www.oracle.com/technetwork/articles/java/index-137868.html)
+##What Is Clean Code? 
+###.Getting Clean via Emergent Design
 Beck’s rules of simple code. In priority order, simple code: 
 <br>*Runs all the tests* 
 <br>*Contains no duplication* 
 <br>*Expresses all the design ideas that are in the system* 
 <br>*Minimizes the number of entities such as classes, methods, functions, and the like.*
 
-###2.Meaningful Names
-
+###1.Meaningful Names
 <br>*Use Intention-Revealing Names*
 <br>*Avoid Disinformation* For example, hp, aix, and sco would be poor variable names because they are the names of Unix platforms or variants. 
 <br>*A class name should not be a verb.*
@@ -30,8 +32,7 @@ customer.setName("Kanchanok");
 ``` 
 
 
-###3.Methods
-
+###2.Methods
 <br>*Do One Thing*  Functions should do one thing. They should do it well. They should do it only.
 ```
 Example :
@@ -46,11 +47,11 @@ private void playBall(Family p) {
      keepPerson(p); 
 }  
 ```
-<br>*Don’t Repeat Yourself*
-<br>*Return results, don't print them*
+<br>*Don’t Repeat Yourself(DRY)*
+	Removing duplication ensures that every concept in the system has a single authoritative representation in the code. A change to a single business concept results in a single change to the code. DRY increases maintainability by isolating change (risk) to only those parts of the system that must change.
 
-###4.Comments
 
+###3.Comments
 <br>*Informative Comments* It is sometimes useful to provide basic information with a comment. 
 <br>*TODO Comments* TODOs are jobs that the programmer thinks should be done.
 ```
@@ -84,7 +85,7 @@ Example :
  }
 ```
 
-###5.Magic Numbers 
+###4.Magic Numbers 
 
 *Replace Magic Numbers with Symbolic Constant*
 ```
