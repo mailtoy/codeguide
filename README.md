@@ -20,11 +20,13 @@
 	Each function, each class, each module exposes a single-minded attitude that remains entirely undistracted, and unpolluted, by the surrounding details.
 
 ###2.Meaningful Names
-
 *Use Intention-Revealing Names*
 *Avoid Disinformation* For example, hp, aix, and sco would be poor variable names because they are the names of Unix platforms or variants. 
 *A class name should not be a verb.*
 *Methods should have verb or verb phrase names*
+``` string name = employee.getName(); 
+customer.setName("mike"); 
+if (paycheck.isPosted())... ``` 
 
 
 ###3.Functions
