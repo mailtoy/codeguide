@@ -28,8 +28,7 @@
 <br>*Methods should have verb or verb phrase names*
 <br>```names like postPayment, deletePage 
 <br>string name = employee.getName(); 
-<br>customer.setName("Kanchanok"); 
- ``` 
+<br>customer.setName("Kanchanok");``` 
 
 
 ###3.Functions
@@ -43,8 +42,7 @@
 <br>private void playBall(Family p) { 
 <br>     if (p.isChild()) 
 <br>       keepPerson(p); 
-<br>}  
-```
+<br>} ```
 <br>*Don’t Repeat Yourself*
 
 ###4.Comments
