@@ -19,9 +19,11 @@ Beck’s rules of simple code. In priority order, simple code:
 <br>*A class name should not be a verb.*
 <br>``` names like Customer, WikiPage, Account ``` 
 <br>*Methods should have verb or verb phrase names*
-<br>```names like postPayment, deletePage``` 
-<br>```string name = employee.getName();``` 
-<br>```customer.setName("Kanchanok");``` 
+```
+names like postPayment, deletePage 
+string name = employee.getName(); 
+customer.setName("Kanchanok");
+``` 
 
 
 ###3.Methods
