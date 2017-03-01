@@ -37,5 +37,6 @@ if (paycheck.isPosted())... ```
 ###4.Comments
 
 *Informative Comments* It is sometimes useful to provide basic information with a comment. 
-*TODO Comments* TODOs are jobs that the programmer thinks should be done.
+<br>*TODO Comments* TODOs are jobs that the programmer thinks should be done.
+<br>``` //TODO  these are not needed  ```
 *Must have a javadoc.*
