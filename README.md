@@ -5,14 +5,6 @@
 *Clean Code*: A Handbook of Agile Software Craftsmanship Robert C. Martin
 [Link](http://ricardogeek.com/docs/clean_code.pdf)
 
-##What Is Clean Code?
-
-There are probably as many definitions as there are programmers. So I asked some very well-known and deeply experienced programmers what they thought.
-
-_**Bjarne Stroustrup**, inventor of C++ and author of The C++ Programming Language._
-
-> I like my code to be elegant and efficient. The logic should be straightforward to make it hard for bugs to hide, the dependencies minimal to ease maintenance, error handling complete according to an articulated strategy, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code does one thing well.
-
 ###Beck’s rules of simple code. In priority order, simple code: 
 - Runs all the tests 
 - Contains no duplication 
@@ -26,3 +18,22 @@ _**Bjarne Stroustrup**, inventor of C++ and author of The C++ Programming Langua
 - [x] *Can be read, and enhanced by a developer other.*
   
 	Each function, each class, each module exposes a single-minded attitude that remains entirely undistracted, and unpolluted, by the surrounding details.
+
+###2.Meaningful Names
+
+*Use Intention-Revealing Names*
+*Avoid Disinformation* For example, hp, aix, and sco would be poor variable names because they are the names of Unix platforms or variants. 
+*A class name should not be a verb.*
+*Methods should have verb or verb phrase names*
+
+
+###3.Functions
+
+*Do One Thing*  Functions should do one thing. They should do it well. They should do it only.
+*Don’t Repeat Yourself*
+
+###4.Comments
+
+*Informative Comments* It is sometimes useful to provide basic information with a comment. 
+*TODO Comments* TODOs are jobs that the programmer thinks should be done.
+*Must have a javadoc.*
