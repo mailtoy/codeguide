@@ -13,7 +13,7 @@ public class ConsoleGoods {
 	private Goods[] a = new Goods[20];
 	private Scanner s = new Scanner(System.in);
 
-
+	//TODO Complete the Javadoc in this class.
 	//TODO that is being duplicated. So we can write a separate method.
 	/**
 	 * 
@@ -43,7 +43,7 @@ public class ConsoleGoods {
 	}
 	
 	/**
-	 * 
+	 * The play method plays a program using input from a user.
 	 * @param type
 	 * @return
 	 */

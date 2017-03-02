@@ -4,16 +4,18 @@
 
 *Clean Code*: A Handbook of Agile Software Craftsmanship Robert C. Martin
 [Link](http://ricardogeek.com/docs/clean_code.pdf)
-*Replace Magic Number with Symbolic Constant* By Martin Fowler
+<br>*Replace Magic Number with Symbolic Constant* By Martin Fowler
 [Link](https://refactoring.com/catalog/replaceMagicNumberWithSymbolicConstant.html)
-*How to Write Doc Comments for the Javadoc Tool* [Link](http://www.oracle.com/technetwork/articles/java/index-137868.html)
+<br>*How to Write Doc Comments for the Javadoc Tool* [Link](http://www.oracle.com/technetwork/articles/java/index-137868.html)
+
 ##What Is Clean Code? 
-###.Getting Clean via Emergent Design
+
+###Getting Clean via Emergent Design
 Beck’s rules of simple code. In priority order, simple code: 
-<br>*Runs all the tests* 
-<br>*Contains no duplication* 
-<br>*Expresses all the design ideas that are in the system* 
-<br>*Minimizes the number of entities such as classes, methods, functions, and the like.*
+<br>-[x] Runs all the tests 
+<br>-[x] Contains no duplication 
+<br>-[x] Expresses all the design ideas that are in the system 
+<br>-[x] Minimizes the number of entities such as classes, methods, functions, and the like.
 
 ###1.Meaningful Names
 <br>*Use Intention-Revealing Names*
@@ -48,8 +50,29 @@ private void playBall(Family p) {
 }  
 ```
 <br>*Don’t Repeat Yourself(DRY)*
-	Removing duplication ensures that every concept in the system has a single authoritative representation in the code. A change to a single business concept results in a single change to the code. DRY increases maintainability by isolating change (risk) to only those parts of the system that must change.
 
+	Removing duplication ensures that every concept in the system has a single authoritative representation in the code. A change to a single business concept results in a single change to the code. DRY increases maintainability by isolating change (risk) to only those parts of the system that must change.
+```
+public class Device {
+ 
+	public void payMoney() {
+ 
+		System.out.println(“Poor!”);
+		sentenceAnswers();
+	}
+ 
+	public void withdraw() {
+ 
+		System.out.println(“Don’t have money.”);
+		sentenceAnswers();
+	}
+ 
+	public void sentenceAnswers() {
+
+		System.out.println(“Umm, Do you have any money ?”);		
+	}
+}
+```
 
 ###3.Comments
 <br>*Informative Comments* It is sometimes useful to provide basic information with a comment. 
