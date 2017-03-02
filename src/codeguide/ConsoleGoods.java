@@ -3,7 +3,7 @@ package codeguide;
 import java.util.Scanner;
 /**
  * //TODO Complete the Javadoc in this class.
- * @author mailtoy
+ * @author Kanchanok Kannee
  *
  */
 public class ConsoleGoods {
