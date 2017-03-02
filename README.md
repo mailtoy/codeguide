@@ -112,6 +112,7 @@ Example :
 ###4.Magic Numbers 
 
 *Replace Magic Numbers with Symbolic Constant*
+<br>	Magic Number refers to the bad programming practice of using numbers directly in source code without explanation. 
 ```
 Bad :
 double potentialEnergy(double mass, double height) {
@@ -124,6 +125,7 @@ double potentialEnergy(double mass, double height) {
 }
 static final double GRAVITATIONAL_CONSTANT = 9.81;
 ```
+
 
 ##Exersice
 <br>To improvement exercise for other students to do. Following TODO.
