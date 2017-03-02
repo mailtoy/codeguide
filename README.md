@@ -78,35 +78,31 @@ public class Device {
 ###3.Comments
 <br>*Informative Comments* It is sometimes useful to provide basic information with a comment. 
 <br>*TODO Comments* TODOs are jobs that the programmer thinks should be done.
-```
-Example :
+```Example :
  //TODO  these are not needed 
  ```
 <br>*Must have a javadoc.*
+<br>Javadoc must begin with a slash and two stars, and they can include special tags to describe characteristics like method parameters or return values. such as : @return , @param, @see
+
 ```
 Example :
-/**
- * Returns an Image object that can then be painted on the screen. 
- * The url argument must specify an absolute {@link URL}. The name
- * argument is a specifier that is relative to the url argument. 
- * <p>
- * This method always returns immediately, whether or not the 
- * image exists. When this applet attempts to draw the image on
- * the screen, the data will be loaded. The graphics primitives 
- * that draw the image will incrementally paint on the screen. 
- *
- * @param  url  an absolute URL giving the base location of the image
- * @param  name the location of the image, relative to the url argument
- * @return      the image at the specified URL
- * @see         Image
- */
- public Image getImage(URL url, String name) {
-        try {
-            return getImage(new URL(url, name));
-        } catch (MalformedURLException e) {
-            return null;
-        }
- }
+        /**
+	 * Goods with given name and cost of goods.
+	 * @param name is the name of goods.
+	 * @param cost is the price of goods.
+	 */
+	public Goods(String name, int cost) {
+		this.name = name;
+		this.cost = cost;
+	}
+	
+	/**
+	 * Get the name of this object.
+	 * @return 
+	 */
+	public String getName() {
+		return name;
+	}
 ```
 
 ###4.Magic Numbers 
