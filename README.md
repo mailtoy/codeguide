@@ -12,10 +12,10 @@
 
 ###Getting Clean via Emergent Design
 Beck’s rules of simple code. In priority order, simple code: 
-<br>- [x] Runs all the tests 
-<br>- [x] Contains no duplication 
-<br>- [x] Expresses all the design ideas that are in the system 
-<br>- [x] Minimizes the number of entities such as classes, methods, functions, and the like.
+- [x] Runs all the tests 
+- [x] Contains no duplication 
+- [x] Expresses all the design ideas that are in the system 
+- [x] Minimizes the number of entities such as classes, methods, functions, and the like.
 
 ###1.Meaningful Names
 <br>*Use Intention-Revealing Names*
@@ -49,8 +49,8 @@ private void playBall(Family p) {
 }  
 ```
 <br>*Don’t Repeat Yourself(DRY)*
-
 	Removing duplication ensures that every concept in the system has a single authoritative representation in the code. A change to a single business concept results in a single change to the code. DRY increases maintainability by isolating change (risk) to only those parts of the system that must change.
+<br>
 
 ```
 public class Device {
