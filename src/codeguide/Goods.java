@@ -27,7 +27,7 @@ public class Goods  {
 	
 	/**
 	 * Get the name of this object.
-	 * @return
+	 * @return 
 	 */
 	public String getName() {
 		return name;

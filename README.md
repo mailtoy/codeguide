@@ -124,3 +124,7 @@ double potentialEnergy(double mass, double height) {
 static final double GRAVITATIONAL_CONSTANT = 9.81;
 ```
 
+##Exersice
+<br>To improvement exercise for other students to do. Following TODO.
+<br>[Exersice1](https://github.com/mailtoy/codeguide/blob/master/src/codeguide/ConsoleGoods.java)
+<br>[Exersice2](https://github.com/mailtoy/codeguide/blob/master/src/codeguide/Goods.java)

@@ -2,7 +2,7 @@ package codeguide;
 
 import java.util.Scanner;
 /**
- * 
+ * //TODO Complete the Javadoc in this class.
  * @author mailtoy
  *
  */
@@ -13,10 +13,10 @@ public class ConsoleGoods {
 	private Goods[] a = new Goods[20];
 	private Scanner s = new Scanner(System.in);
 
-	//TODO Complete the Javadoc in this class.
+	
 	//TODO that is being duplicated. So we can write a separate method.
 	/**
-	 * 
+	 * Add name and price of goods in array.
 	 */
 	private void addGoods() {
 		System.out.println("A goods name is ");
@@ -29,14 +29,15 @@ public class ConsoleGoods {
 	}
 
 	/**
-	 * 
+	 * //TODO This method has a magic number, replace magic numbers with symbolic constant( ONE_DECIMAL )
+	 * Show the list of goods.
 	 */
 	private void showGoods() {
 		if (num == 0) {
 			System.out.println("No Goods!");
 		} else {
 			for (int i = 0; i < num; i++) {
-				System.out.println((i + 1)+ ". " + a[i].getName() + " " + a[i].getCost() + " Baht.");
+				System.out.println((i + 1)+ ". " + a[i].getName() + " " + a[i].getCost()*1.0 + " Baht.");
 			}
 		}
 		System.out.println(".......................");
