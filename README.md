@@ -78,9 +78,11 @@ public class Device {
 ###3.Comments
 <br>*Informative Comments* It is sometimes useful to provide basic information with a comment. 
 <br>*TODO Comments* TODOs are jobs that the programmer thinks should be done.
-```Example :
+```
+Example :
  //TODO  these are not needed 
  ```
+
 <br>*Must have a javadoc.*
 <br>Javadoc must begin with a slash and two stars, and they can include special tags to describe characteristics like method parameters or return values. such as : @return , @param, @see
 
@@ -103,12 +105,14 @@ Example :
 	public String getName() {
 		return name;
 	}
+
 ```
 
 ###4.Magic Numbers 
 
 *Replace Magic Numbers with Symbolic Constant*
 <br>	Magic Number refers to the bad programming practice of using numbers directly in source code without explanation. 
+
 ```
 Bad :
 double potentialEnergy(double mass, double height) {
